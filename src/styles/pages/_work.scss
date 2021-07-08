@@ -1,0 +1,16 @@
+a {
+    text-decoration: none !important;
+}
+.work-title, h2 {
+    color: white;
+    font-size: 4rem;
+    -webkit-text-stroke: 1px var(--color-primary);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+
+    &:hover{
+        color: var(--color-primary);
+        -webkit-text-stroke: 0px var(--color-primary);
+    }
+}
