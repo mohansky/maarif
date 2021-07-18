@@ -134,16 +134,10 @@
    
   .banner-play-title{ 
     
-    h3{ 
-      // font-size: 4vw;
+    h3{  
       font-size: calc(55vw / 7); 
     }
-     
-
-    .playnavdisplay{ 
-      // background-color: aquamarine;
-    }
-     
+   
     .playnav{ 
       padding-left: 0px; 
     }
@@ -154,7 +148,7 @@
     h1{ 
       font-size: calc(100vw / 9); 
       line-height: 0.335em;
-      padding-bottom: 2rem; 
+      padding-bottom: 1rem; 
     }
   }
 
@@ -168,26 +162,63 @@
     h1{ 
       font-size:  calc(100vw / 3); 
       line-height: 0.47em; 
-    }
-
-    .worknavdisplay{ 
-      // background-color: aquamarine;
-    }
+      padding-bottom: 1rem; 
+    } 
     .worknav{ 
       // padding-left: 12vw; 
       padding-left: 0px; 
-    }
-       
-  }
-
-
+    } 
+  } 
 }
 }
 
 /* Below 767px **********************************************************/
 @media  (max-width: 767px) { 
-  /* */
+  
+#banner{
+  height: 100%; 
+  margin-top: 5rem; 
+   
+  .banner-play-title{ 
+    
+    h3{  
+      font-size: calc(55vw / 7); 
+    }
+   
+    .playnav{ 
+      padding-left: 0px; 
+    }
+    &:hover .playnav{
+      opacity: 1;
+    }  
+     
+    h1{ 
+      font-size: calc(110vw / 9); 
+      line-height: 0.335em;
+      padding-bottom: 0.5rem; 
+    }
+  }
+
+/* Work section */
+  .banner-work-title  {  
+    text-align: end;
+    h3{ 
+      font-size: calc(55vw / 9); 
+    }
+
+    h1{ 
+      font-size:  calc(110vw / 3); 
+      line-height: 0.47em; 
+      padding-bottom: 0.8rem; 
+    } 
+    .worknav{ 
+      // padding-left: 12vw; 
+      padding-left: 0px; 
+    } 
+  } 
 }
+}
+
  
 
  

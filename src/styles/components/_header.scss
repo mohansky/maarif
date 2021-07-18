@@ -6,7 +6,7 @@
   list-style: none;
   position: absolute;
   top: 11vh;
-  opacity: 1;
+  opacity: 0;
   transition: all 2s ease; 
 }
 
@@ -45,7 +45,7 @@ button{
 
 .work{
   @include menu-nav-icon; 
-  left: -150%;
+  left: -100%;
 }
 
 .work.active{ 
@@ -56,7 +56,7 @@ button{
 
 .play{
   @include menu-nav-icon; 
-  right: -180%;
+  right: -100%;
   
 }
 
