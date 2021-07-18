@@ -45,7 +45,7 @@ button{
 
 .work{
   @include menu-nav-icon; 
-  left: -100%;
+  left: 0;
 }
 
 .work.active{ 
@@ -56,7 +56,7 @@ button{
 
 .play{
   @include menu-nav-icon; 
-  right: -100%;
+  right: 0;
   
 }
 
@@ -131,7 +131,7 @@ button{
 
   .work{ 
     flex-direction: column;
-    left: -150%;
+    left: 0;
   }
   
   .work.active{  
@@ -140,7 +140,7 @@ button{
   
   .play{
     flex-direction: column; 
-    right: -180%;
+    right: 0;
   }
   
   .play.active{  
@@ -178,8 +178,3 @@ button{
 }
 }  
 /* HEADER END */
- 
-
-
-  
-
