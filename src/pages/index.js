@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Banner from "../components/banner"
+
 import About from "../components/about"
 import WorkList from "../components/work-list"
 import PlayList from "../components/play-list"
@@ -14,7 +15,8 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="HOME" />
-      <Banner/> 
+      <Banner/>
+      
       <About/>
       <WorkList/>
       <PlayList/>

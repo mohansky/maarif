@@ -1,26 +1,28 @@
 @use 'components/header'; 
-@use 'components/banner';
+@use 'components/banner'; 
+@use 'components/bannernav'; 
 @use 'components/about';
 @use 'pages/play';
 @use 'pages/work'; 
 @use 'templates/blog-post'; 
 
+
 /* CSS Custom Properties Definitions */
 
 :root {
   --maxWidth-none: "none";
-  --maxWidth-xs: 20rem;
-  --maxWidth-sm: 24rem;
-  --maxWidth-md: 28rem;
-  --maxWidth-lg: 32rem;
-  --maxWidth-xl: 36rem;
-  --maxWidth-2xl: 42rem;
-  --maxWidth-3xl: 48rem;
-  --maxWidth-4xl: 56rem;
-  --maxWidth-5xl: 64rem;
-  --maxWidth-6xl: 72rem;
-  --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-6xl);
+  --maxWidth-xs: 5%;
+  --maxWidth-sm: 10%;
+  --maxWidth-md: 20%;
+  --maxWidth-lg: 30%;
+  --maxWidth-xl: 40%;
+  --maxWidth-2xl: 50%;
+  --maxWidth-3xl: 60%;
+  --maxWidth-4xl: 70%;
+  --maxWidth-5xl: 80%;
+  --maxWidth-6xl: 90%;
+  --maxWidth-full: 99%;
+  --maxWidth-wrapper: var(--maxWidth-5xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -69,7 +71,7 @@
   --color-accent: #fff252;
 }
 
-
+ 
 @font-face {
   font-family: "Mighty Slab W05 One";
   src: url("../fonts/mighty-slab-w01.ttf");
@@ -83,8 +85,7 @@
   box-sizing: border-box;
 }
 
-html {
-  // line-height: var(--lineHeight-normal);
+html { 
   font-size: var(--fontSize-root);
   overflow-x: hidden; 
 }
@@ -168,9 +169,9 @@ h6 > a {
 
 p {
   // line-height: var(--lineHeight-relaxed);
-  --baseline-multiplier: 0.179;
-  --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  // --baseline-multiplier: 0.179;
+  // --x-height-multiplier: 0.35;
+  // margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
 }
  
@@ -188,13 +189,28 @@ a:focus {
 /* Custom classes */
 
 .global-wrapper {
-  margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-wrapper);
-  padding: var(--spacing-5) var(--spacing-5);
+  margin: 0 auto;
+  width: var(--maxWidth-wrapper);
+  padding: var(--spacing-10) 0;
+  // background-color: rgb(168, 168, 168);
 }
- 
- 
- 
+
+
+/* From 768px to 1024px */
+ @media (min-width: 768px) and (max-width: 1024px) { 
+  .global-wrapper { 
+    width: var(--maxWidth-6xl); 
+    // background-color: rgb(255, 192, 98);
+  }
+}
+
+/* Below 767px */
+@media  (max-width: 767px) { 
+  .global-wrapper { 
+    width: var(--maxWidth-full); 
+    // background-color: rgb(130, 199, 255);
+  }
+}
  
 
  

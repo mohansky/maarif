@@ -1,0 +1,42 @@
+/* BANNER NAV  */
+
+
+.nav-blinks h5{ 
+  color: var(--color-accent);
+  background-color: var(--color-primary); 
+  text-decoration: none;
+  list-style: none;
+  padding: 0.1rem 0.6rem 0.15rem 0.6rem;
+  margin: 0.8rem 0.3rem 0 0.3rem;
+  font-size: medium;  
+}
+
+
+
+/* From 768px to 1024px **********************************************************/
+@media (min-width: 768px) and (max-width: 1024px) { 
+  .nav-blinks h5 { 
+    // padding: 0.1rem 0.6rem 0.15rem 0.6rem;
+    // margin: .2rem;
+    // font-size: small;
+    display: none !important;
+  }
+}
+
+/* Below 767px **********************************************************/
+@media  (max-width: 767px) { 
+  .nav-blinks h5 { 
+    // padding: 0.05rem 0.3rem 0.075rem 0.3rem;
+    // margin: 0;
+    display: none !important; 
+  }
+}
+ 
+ 
+  
+  /* BANNER NAV END */
+ 
+
+
+  
+
