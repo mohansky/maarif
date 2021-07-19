@@ -1,0 +1,16 @@
+a {
+    text-decoration: none !important;
+}
+.post-title, h2 {
+    color: white;
+    font-size: calc(4vw + 1rem);
+    -webkit-text-stroke: 1px var(--color-primary);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+
+    &:hover{
+        color: var(--color-primary);
+        -webkit-text-stroke: 0px var(--color-primary);
+    }
+}

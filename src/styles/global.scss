@@ -1,9 +1,8 @@
 @use 'components/header'; 
 @use 'components/banner'; 
 @use 'components/bannernav'; 
-@use 'components/about';
-@use 'pages/play';
-@use 'pages/work'; 
+@use 'components/about'; 
+@use 'pages/post-list'; 
 @use 'templates/blog-post'; 
 
 

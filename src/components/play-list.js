@@ -44,7 +44,7 @@ const PlayList = () => {
             <li key={post.fields.slug}>
               <article className="post-list-item"  >
                     <Link to={post.fields.slug} itemProp="url">
-                       <h2 className="work-title"> {title} </h2> 
+                       <h2 className="post-title"> {title} </h2> 
                     </Link>  
               </article>
             </li>
