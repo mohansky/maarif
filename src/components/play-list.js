@@ -36,7 +36,7 @@ const PlayList = () => {
 
   return (
     <section id="playlist">
-      <ol style={{ listStyle: `none` }}>
+      <ol className="post-list">
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
