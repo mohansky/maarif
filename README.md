@@ -1,7 +1,7 @@
-# Hi! I am Maarif Haque  ![Maarif Haque](./src/images/mhicon.png)
+![Maarif Haque](./src/images/mhicon.png)
+
+# Hi! I am Maarif Haque  
 
 ### Jack of all Trades
 
-### Master of One
-
-![Maarif Haque](./src/images/mhicon.png)
+### Master of One 
