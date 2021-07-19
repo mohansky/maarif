@@ -10,7 +10,7 @@
   // -webkit-text-stroke: 1px var(--color-primary);
   // text-stroke: 1px var(--color-primary);
   text-shadow: -1px -1px 0 var(--color-primary), 1px -1px 0 var(--color-primary), -1px 1px 0 var(--color-primary), 1px 1px 0 var(--color-primary);
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
   color: rgb(255, 255, 255);
   margin: 0; 
 }
@@ -97,8 +97,8 @@
     h1{
       @include banner-font; 
       font-size:  calc(90vw / 3); 
-      line-height: 0.47em;
-      padding-bottom: 2rem; 
+      line-height: 0.48em;
+      padding-bottom: 5rem; 
       // background-color: rgb(150, 183, 245); 
     }
     &:hover h1 {
@@ -118,11 +118,7 @@
       opacity: 1;
     }   
   }
-
-
 }
-
-
 
 
 /* From 768px to 1024px **********************************************************/
@@ -148,7 +144,7 @@
     h1{ 
       font-size: calc(100vw / 9); 
       line-height: 0.335em;
-      padding-bottom: 1rem; 
+      padding-bottom: 3rem; 
     }
   }
 
@@ -161,8 +157,8 @@
 
     h1{ 
       font-size:  calc(100vw / 3); 
-      line-height: 0.47em; 
-      padding-bottom: 1rem; 
+      line-height: 0.48em; 
+      padding-bottom: 3rem; 
     } 
     .worknav{ 
       // padding-left: 12vw; 
@@ -195,7 +191,7 @@
     h1{ 
       font-size: calc(110vw / 9); 
       line-height: 0.335em;
-      padding-bottom: 0.5rem; 
+      padding-bottom: 2rem; 
     }
   }
 
@@ -208,8 +204,8 @@
 
     h1{ 
       font-size:  calc(110vw / 3); 
-      line-height: 0.47em; 
-      padding-bottom: 0.8rem; 
+      line-height: 0.48em; 
+      padding-bottom: 2rem; 
     } 
     .worknav{ 
       // padding-left: 12vw; 
@@ -218,12 +214,6 @@
   } 
 }
 }
-
- 
-
- 
-
-
 
   
 /* BANNER END */
